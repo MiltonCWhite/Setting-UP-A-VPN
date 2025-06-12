@@ -45,10 +45,10 @@
 <p><img src="https://i.imgur.com/u3vclL3.png" height="80%" width="80%" alt="VM Naming"/></p>
 
 <p>Set up a custom admin username and password you’ll remember.</p>
-<p><img src="https://i.imgur.com/rXIj3Zb.png" height="80%" width="80%" alt="Admin Config"/></p>
+<p><img src="https://github.com/user-attachments/assets/873cfc08-1e7e-4b55-8b54-164609095966" height="80%" width="80%" alt="Admin Config"/></p>
 
 <p>Move to the Networking tab and replicate the input options from the next image.</p>
-<p><img src="https://i.imgur.com/OgYgNLK.png" height="80%" width="80%" alt="Networking Settings"/></p>
+<p><img src="https://github.com/user-attachments/assets/9e9c69eb-47f1-41c9-85e3-ef1523509d88" height="80%" width="80%" alt="Networking Settings"/></p>
 
 <p>Click “Review + Create.” After validation completes, select “Create.” Once deployed, note the public IP address of the VM (e.g., 20.216.176.18).</p>
 <p><img src="https://i.imgur.com/ZlH9zI5.png" height="80%" width="80%" alt="VM IP Address"/></p>
@@ -56,14 +56,14 @@
 <h3>Step 3 – Connect to VM and Verify Location</h3>
 <p>Use Remote Desktop Connection from your PC and connect to the VM using the IP address and login credentials.</p>
 <p><img src="https://i.imgur.com/YPBkMau.png" height="80%" width="80%" alt="RDP App"/></p>
-<p><img src="https://i.imgur.com/oPJr2w2.png" height="80%" width="80%" alt="RDP Login"/></p>
+<p><img src="https://github.com/user-attachments/assets/d4a6fe23-57ad-4168-8c3b-86f7214853e7" height="80%" width="80%" alt="RDP Login"/></p>
 
 <p>Inside the VM, open a browser and revisit whatismyipaddress.com. The result should reflect a France-based IP.</p>
 <p><img src="https://i.imgur.com/nWlX2UM.png" height="80%" width="80%" alt="France IP"/></p>
 
 <h3>Step 4 – VPN Setup Within VM</h3>
 <p>On your personal computer, go to <a href="https://protonvpn.com" target="_blank">protonvpn.com</a> and create a free account. Once created, copy the login URL and paste it into the browser inside the VM.</p>
-<p><img src="https://i.imgur.com/orO2O5y.png" height="80%" width="80%" alt="ProtonVPN"/></p>
+<p><img src="https://github.com/user-attachments/assets/413889e6-6875-4ad9-b707-89c043fdf854" height="80%" width="80%" alt="ProtonVPN"/></p>
 
 <p>Log in to Proton VPN on the VM and download the Windows app. After installation, sign in and connect to a VPN server (e.g., Japan). You should see something like this:</p>
 <p><img src="https://i.imgur.com/oqPHozb.png" height="80%" width="80%" alt="Connected VPN"/></p>
@@ -85,4 +85,3 @@
 
 <p>Before finishing, remember to clean up your Azure resources to avoid unexpected charges. You can delete the resource group to remove the VM completely.</p>
 
-<p><strong>End of Tutorial</strong></p>
